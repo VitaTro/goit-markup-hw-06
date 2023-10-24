@@ -600,6 +600,7 @@ margin-top: 0;
     .social-section-team:hover {
         fill:var(--cornflower-color);
     }
+    
     .strategy-header {
         font-size: 20px;
     line-height: 1.2;
@@ -625,6 +626,40 @@ margin-top: 0;
     .studio {
         color: var(--navy-blue-color);
     }
+    .submit-icon {
+        background-color:var(--iris-color);
+        border-radius: 0.25rem;
+        display: inline-flex;
+padding: 0.5rem 1.5rem;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+color:var(--white-color);
+    }
+    .subscribe {
+        display:flex;
+    }
+    .subscribe-header {
+        color: var(--white-color);
+font-family: Roboto;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem;
+letter-spacing: 0.02rem;
+gap: 1.5em;
+
+    }
+    .subscribe-mail {
+        width: 16.5rem;
+height: 2.5rem;
+flex-shrink: 0;
+border-radius: 0.25rem;
+border: 1px solid var(--white-color);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color:var(--white-color);
+background-color:var(--navy-blue-color);    
+}
     .svg-icons {
         height: 40px;
         width: 40px;

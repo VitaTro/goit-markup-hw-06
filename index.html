@@ -381,18 +381,52 @@ height: 200rem;
                     </li>
                 </ul>
             </div>
+            <div class="subscribe">
+            <form >
+        <label for="subscribe" class="subscribe-header">Subscribe
+        <input type="name" id="subscribe" placeholder="E-mail"  class="subscribe-mail"/>
+    </label>
+        <button type="submit" class="submit-icon">Subscribe
+            <svg width="24" height="24">
+                <use  href="./images/icons.svg#icon-frame"></use>
+            </svg>
+        </button>
+       </form>
+       </div>
         </div>
         </footer>
 
        <div class=" modal is-hidden" data-modal>
         <div class="modal-windows">
+            <form>
+                <h3>Leave your contacts and we will call you back</h3>
+                <label for="name">
+                    Name
+                    <input type="name" name="name" id="name"/>
+                </label>
+                <label for="phone">
+                    Phone
+                    <input type="phone" name="phone" id="phone"/>
+                </label>
+                <label for="email">
+                   Email
+                    <input type="email" name="email" id="email"/>
+                </label>
+                <label for="feedback">
+                    Comment
+                    <textarea name="feedback" placeholder="Text input"></textarea>
+                    <input type="checkbox" name="foo" id="feedback" />I accept the terms and conditions of the Privacy Policy
+            </form>
             <button type="button" class="modal-windows-close" data-modal-close>
                 <svg class="modal-svg" width="8" height="8">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
         </div>
-       </div>
+        </div>
+        
+        
+    
 
         <script src="./js/modal.js"></script>
 </body>
