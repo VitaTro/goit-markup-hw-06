@@ -779,18 +779,7 @@ border: none;
         display:flex;
         gap: 24px;
     }
-    .subscribe-header {
-        margin-bottom: 16px;
-        color: var(--white-color);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02rem;
-gap: 1.5em;
 
-    }
     .subscribe-mail {
         width:264px;
 height: 40px;
