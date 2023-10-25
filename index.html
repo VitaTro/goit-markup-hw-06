@@ -382,66 +382,68 @@ height: 200rem;
                 </ul>
             </div>
             <div class="subscribe">
-            <form action="javascript:void(0);">
-        <label for="subscribe" class="subscribe-header">Subscribe
-        <input type="name" id="subscribe" placeholder="E-mail"  class="subscribe-mail"/>
-    </label>
-        <button type="submit" class="submit-icon">Subscribe
-            <svg width="24" height="24">
-                <use  href="./images/icons.svg#icon-frame"></use>
-            </svg>
-        </button>
-       </form>
-       </div>
+                <p class="subscribe-header">Subscribe</p>
+                <form class="subscribe-form">
+<label class="subscribe-message"></label>
+    <input name="subscribe" type="email"  placeholder="E-mail" class="subscribe-mail"/>
+    <button type="submit" class="submit-icon">Subscribe
+        <svg width="24" height="24" class="submit-svg">
+            <use  href="./images/icons.svg#icon-frame"></use>
+        </svg>
+    </button>
+
+                </form>
+            </div>
         </div>
         </footer>
 
        <div class=" modal is-hidden" data-modal>
-        <div class="modal-windows form-windows">
-            <form action="javascript:void(0);">
-                <h3 class="modal-header">Leave your contacts and we will call you back</h3>
-                <div class="">
-                <label for="username" class="modal-text">Name</label>
-                    
-                    <div class="modal-user-form">
-                       <svg width="18" height="18">
-                        <use href="./images/icons.svg#icon-person" />
-                    </svg> 
-                    <input type="text" name="name" id="username"/>
-                </div>
-                <label for="phone" class="modal-text"> Phone</label>
-                <div class="modal-user-form-two">
-                     <svg  width="18" height="24">
-                        <use href="./images/icons.svg#icon-phone" />
-                    </svg>
-                    <input type="phone" name="phone" id="phone"/>
-                   
-                </div>
-                <label for="email" class="modal-text">Email</label>
-                <div class="modal-user-form-two">
-                    <svg  width="18" height="24">
-                        <use href="./images/icons.svg#icon-email" />
-                    </svg>
-                    <input type="email" name="email" id="email"/>
-                    
-                </div>
-                <label for="feedback" class="modal-text">
-                    Comment
-                    <textarea name="feedback" placeholder="Text input" class="modal-user-comment"></textarea>
-                   </div> 
-                   <div >
-                     <input type="checkbox" name="privacy" id="privacy" class="is-hidden privacy-policy-input"/>
-                    <label for="privacy"class="privacy-policy">
-                    <span >
-                        <svg width="16" height="16">
-                            <use href="./images/icons.svg#icon-click" />
-                        </svg>
-                    </span>
-                    I accept the terms and conditions of the <a href="">Privacy Policy</a>
-           </label>
-                </div>
-                <button type="submit" class="button button-send">Send</button>
-                </form>
+        <div class="modal-windows ">
+            <p class="modal-p">Leave your contacts and we will call you back</p>
+<form>
+        <div class="form-windows">
+                    <label class="modal-text" for="user-name">Name</label>
+                    <div>
+                    <input  class="modal-user-form" type="text" name="user-name" id="user-name"/>
+                    <svg class="modal-user-svg" width="18" height="24">
+                         <use href="./images/icons.svg#icon-person" />
+                     </svg> 
+                    </div>
+                    <div class="form-windows">
+                    <label class="modal-text" for="phone">Phone</label>
+                    <div>
+                    <input  class="modal-user-form" type="text" name="user-name" id="phone"/>
+                    <svg class="modal-user-svg" width="18" height="24">
+                         <use href="./images/icons.svg#icon-phone" />
+                     </svg> 
+                    </div>
+                    </div>
+                     <div class="form-windows">
+                    <label class="modal-text" for="email">Email</label>
+                    <div>
+                    <input  class="modal-user-form" type="text" name="user-name" id="email"/>
+                    <svg class="modal-user-svg" width="18" height="24">
+                         <use href="./images/icons.svg#icon-email" />
+                     </svg> 
+                    </div>
+                     </div>
+                    <div class="modal-comments">
+<label for="user-comment" class="modal-text">Comment</label>
+                <textarea class="modal-user-comment" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
+                 </div>
+                    <div class="privacy">
+<input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="is-hidden privacy-policy-input"/>
+<label  for="user-privacy" class="privacy-policy">
+<span class="privacy-span">
+    <svg width="10" height="8">
+        <use href="./images/icons.svg#icon-click" />
+    </svg>
+</span>
+I accept the terms and conditions of the<a class="privacy-a" href="">Privacy Policy</a></label>
+                    </div>
+                <button type="submit" class="button-send">Send</button>
+        </div>
+</form>
             <button type="button" class="modal-windows-close" data-modal-close>
                 <svg class="modal-svg" width="8" height="8">
                     <use href="./images/icons.svg#icon-close"></use>
@@ -449,9 +451,6 @@ height: 200rem;
             </button>
         </div>
         </div>
-        
-        
-    
 
         <script src="./js/modal.js"></script>
 </body>
