@@ -773,6 +773,7 @@ border: none;
     }
     .subscribe-form {
         display:flex;
+        gap: 24px;
     }
     .subscribe-header {
         margin-bottom: 16px;
@@ -800,12 +801,10 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 background-color: transparent;  
 color: var(--white-color);
 }
-.subscribe-mail::placeholder {
+.subscribe-mail placeholder {
 color:var(--white-color);
 }
-.subscribe-message {
-    gap: 24px;
-}
+
     .svg-icons {
         height: 40px;
         width: 40px;
