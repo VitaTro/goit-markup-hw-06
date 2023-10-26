@@ -444,7 +444,7 @@ padding-left: 38px;
     border-color:var(--iris-color); 
 fill:var(--iris-color);
 }
-.modal-user-form:focus > svg {
+.modal-user-form:focus svg {
     fill:var(--iris-color);
 }
 .modal-user-svg {
