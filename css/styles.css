@@ -451,7 +451,12 @@ fill:var(--iris-color);
 transform: translateY(-50%);
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.modal-user-svg:focus {
+    fill: var(--iris-color);
+} 
+.modal-user-svg:focus + .modal-user-form {
+    fill: var(--iris-color);
+}
 .modal-windows {
     padding: 72px 24px 24px 24px; 
     position: absolute;
@@ -625,7 +630,7 @@ flex-shrink: 0;
         fill:var(--iris-color);
     }
     .privacy-policy-input:checked + .privacy-policy > span {
-background-color:var(--iris-color);
+background-color:var(--moderate-blue-color);
 border: none;
 fill:var(--cloud-color);
     }
